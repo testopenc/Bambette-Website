@@ -60,15 +60,36 @@ nav {
   flex: 20%;
   justify-content: space-evenly;
   margin-left: 10px;
-  margin-top: 32px;
+  margin-top: 18px;
   font-size: 20px;
+
 }
 .fa-user {
   margin-left: 156px;
   margin-right: 65px;
+  border-top: 2px solid transparent;
+  padding-top: 10px;
+  padding-inline: 5px;
 }
 .fa-shopping-cart {
   margin-left: 65px;
+  border-top: 2px solid transparent;
+  padding-top: 10px;
+  padding-inline: 5px;
+}
+
+.fa-headset {
+  border-top: 2px solid transparent;
+  padding-top: 10px;
+  padding-inline: 5px;
+}
+
+.fa-user:hover,
+.fa-shopping-cart:hover,
+.fa-headset:hover{
+  border-top: 2px solid black;
+  padding-top: 10px;
+  padding-inline: 5px;
 }
 .zonetext {
   display: flex;
@@ -162,6 +183,10 @@ section {
 .image {
   flex: 50%;
 }
+.bambette{
+  width: 65%;
+  margin-left: 113px;
+}
 
 .animate {
   flex: 25%;
@@ -190,7 +215,7 @@ ul li a {
   text-decoration-line: none;
 }
 
-ul li :before {
+ul li a:before {
   content: "";
   position: absolute;
   top: 100%;
