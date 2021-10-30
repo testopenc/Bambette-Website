@@ -102,5 +102,26 @@
   
   .titre h1 {
     font-weight: lighter;
-    font-size: 85px;
+    font-size: 65px;
+  }
+  section{
+    display: flex;
+  }
+  h2{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    font-size: 35px;
+  }
+  .stepone{
+    flex: 25%;
+  }
+  .steptwo{
+    flex: 25%;
+  }
+  .stepthree{
+    flex: 25%;
+  }
+  .stepfor{
+    flex: 25%;
   }

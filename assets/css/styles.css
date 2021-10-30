@@ -106,7 +106,8 @@ nav {
 
 .titre h1 {
   font-weight: lighter;
-  font-size: 85px;
+  font-size: 75px;
+  margin-top: 15px;
 }
 .soustitre {
   display: flex;
