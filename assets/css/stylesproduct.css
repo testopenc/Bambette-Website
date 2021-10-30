@@ -11,7 +11,7 @@
   
   body {
     font-family: "StintUltraCondensed-Regular", sans-serif;
-    background: url("./assets/images/fondproduits.png");
+    background: url("/assets/images/fondproduits.png");
     background-size: cover;
     margin: 20px 25px 20px 25px;
   }
@@ -90,4 +90,51 @@
     border-top: 2px solid black;
     padding-top: 10px;
     padding-inline: 5px;
+  }
+  .zonetext {
+    margin-top: 60px;
+  }
+  
+  .titre {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .titre h1 {
+    font-weight: lighter;
+    font-size: 65px;
+  }
+  section{
+    display: flex;
+  }
+  .pack{
+    flex: 50%;
+  }
+  .unity{
+    flex: 50%;
+  }
+  .imgb,
+  .imgp{
+    width: 230px;
+    margin: 0 0 0 180px;
+  }
+  .imgb:hover{
+    display: none;
+  }
+  .unityimg{
+    position: relative;
+  }
+  .imgb{
+    position: absolute;
+  }
+  .priceunity{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .pou{
+    font-size: 50px;
+  }
+  .ptu{
+    font-size: 35px;
   }

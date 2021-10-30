@@ -11,7 +11,7 @@
 
 body {
   font-family: "StintUltraCondensed-Regular", sans-serif;
-  background: url("./assets/images/fondbambette1.png") no-repeat;
+  background: url("/assets/images/fondbambette1.png") no-repeat;
   background-size: cover;
   margin: 20px 25px 20px 25px;
 }
