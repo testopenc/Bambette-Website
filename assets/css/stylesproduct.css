@@ -104,17 +104,53 @@
     font-weight: lighter;
     font-size: 65px;
   }
+
+  /* SECTION */
+
   section{
     display: flex;
   }
   .pack{
     flex: 50%;
   }
+  .moreorlesso{
+    display: flex;
+    justify-items: center;
+    background-color:black;
+    width: 35%;
+    border:black 3px solid;
+    justify-items: center;
+    height: 40px;
+  }
+  .moreo{
+    background-color:aqua;
+    flex-grow: 1;
+    border-radius: 30%;
+  }
+  .numbo{
+    flex-grow: 2;
+
+  }
+  .lesso{
+    background-color:aqua;
+    flex-grow: 1;
+    border-radius: 30%;
+  }
+  .pack h2,
+  .unity h2{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    font-size: 40px;
+    font-weight: 100;
+  
+  }
   .unity{
     flex: 50%;
   }
   .imgb,
-  .imgp{
+  .imgp,
+  .imgo{
     width: 230px;
     margin: 0 0 0 180px;
   }
@@ -127,14 +163,17 @@
   .imgb{
     position: absolute;
   }
-  .priceunity{
+  .priceunity,
+  .pricepack{
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+
   }
-  .pou{
+  .pou,
+  .pop{
     font-size: 50px;
   }
-  .ptu{
+  .ptu,
+  .ptp{
     font-size: 35px;
   }
